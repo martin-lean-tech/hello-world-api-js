@@ -12,12 +12,12 @@ This is a sample Node.js Express API that demonstrates how to instrument an API 
 
 1. Clone this repository:
 
-git clone https://github.com/martin-lean-tech/hello-world-api-js
+`git clone https://github.com/martin-lean-tech/hello-world-api-js`
 
 2. Install the dependencies:
 
-cd hello-world-api
-npm install
+`cd hello-world-api`
+`npm install`
 
 3. Set your Revenium Metering API key as an environment variable:
 
@@ -27,13 +27,13 @@ Replace `your-api-key` with your actual API key.
 
 1. Start the API server:
 
-npm start
+`npm start`
 
 The API will be accessible at `http://localhost:3000`.
 
 2. Make a POST request to the `/hello` endpoint:
 
-curl -X POST http://localhost:3000/hello
+`curl -X POST http://localhost:3000/hello`
 
 This will trigger the API to send metering data to the Revenium Metering API using the Metering SDK.
 
