@@ -1,4 +1,3 @@
-markdown
 # Hello World API with Metering SDK
 
 This is a sample Node.js Express API that demonstrates how to instrument an API with the Revenium Metering SDK to send usage data to the Revenium Metering API.
