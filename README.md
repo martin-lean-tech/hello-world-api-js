@@ -31,13 +31,17 @@ Replace `your-api-key` with your actual API key.
 
 1. Start the API server:
 
-```npm start```
+```
+npm start
+```
 
 The API will be accessible at `http://localhost:3000`.
 
 2. Make a POST request to the `/hello` endpoint:
 
-```curl -X POST http://localhost:3000/hello```
+```
+curl -X POST http://localhost:3000/hello
+```
 
 This will trigger the API to send metering data to the Revenium Metering API using the Metering SDK.
 
