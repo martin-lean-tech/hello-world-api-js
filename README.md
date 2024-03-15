@@ -19,7 +19,7 @@ git clone https://github.com/martin-lean-tech/hello-world-api-js
 2. Install the dependencies:
 
 ```
-cd hello-world-api
+cd hello-world-api-js
 npm install
 ```
 
